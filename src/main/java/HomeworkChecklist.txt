@@ -24,7 +24,7 @@ PROGRAMMING TASKS
  SHORT ANSWERS
     // TODO FOR HOMEWORK: Answer each question, and note many don't have a 'right answer' so just answer honestly
     [ ] What is the purpose of a constructor
-         ANSWER HERE:
+         ANSWER HERE: 
 
     [ ] This project uses 'inheritance' for each shape, since they all have 'BaseShape' as their parent.
         In your own words define what you believe 'inheritance' means.
