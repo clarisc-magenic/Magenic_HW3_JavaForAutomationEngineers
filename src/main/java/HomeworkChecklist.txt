@@ -24,42 +24,47 @@ PROGRAMMING TASKS
  SHORT ANSWERS
     // TODO FOR HOMEWORK: Answer each question, and note many don't have a 'right answer' so just answer honestly
     [ ] What is the purpose of a constructor
-         ANSWER HERE: 
+         ANSWER HERE: the purpose of a constructor is to create an object
 
     [ ] This project uses 'inheritance' for each shape, since they all have 'BaseShape' as their parent.
         In your own words define what you believe 'inheritance' means.
-        ANSWER HERE:
+        ANSWER HERE: inheritance means, subclass inheriting all exposed fields and methods that the superclass has
 
     [ ] Research the concept of 'Object Oriented Programming (OOP)', and write down the 4 principles of 'OOP'.
         ANSWER HERE:
-            1)
-            2)
-            3)
-            4)
+            1) Abstraction
+            2) Encapsulation
+            3) Inheritance
+            4) Polymorphism
 
     [ ] What are some advantages of 'inheritance'
-        ANSWER HERE:
+        ANSWER HERE: in inheritance you can create a generic Object and create different variations of it.
+        You can share the methods and attributes of the class to another class, making the work easier
 
     [ ] In the ShapeFactory.java class, there are two methods both called CreateShape.
         One method takes in 3 parameters - Shape Name, length and height
         One method takes in 2 parameters - Shape Name and length
 
         This concept is called 'polymorphism', research 'polymorphism' and write below why Factory used 'polymorphism'
-        ANSWER HERE:
+        ANSWER HERE: ShapeFactory used overloading so that there's no need to create another method with other name than
+        CreateShape. It's easier to call the same name method and have different parameters depending on the use.
 
     [ ] Does this project ever cover the concept of 'Abstraction'? If yes, how so?
-        ANSWER HERE:
+        ANSWER HERE: Yes, Baseshape becomes the abstract class for rectangle.java, Square.java and
+        EquilateralTriangle.java.
 
     [ ] Does this project ever cover the concept of 'Encapsulation'? If yes, how so?
-        ANSWER HERE:
+        ANSWER HERE: Yes. In BaseShape class, variable shape, length, and height is kept private or "encapsulated".
+        Method DEBUG_PrintOutAreaAndPerimeter is kept protected
 
     [ ] Why did you need to 'override' the 'area' and 'perimeter' methods in 'EquilateralTriangle.java' but not the
         'Square.java' and 'Rectangle.java'?
-        ANSWER HERE:
+        ANSWER HERE: Because EquilateralTriangle has different computation for area and perimeter than the BaseShape.
+        Unlike Square and Rectangle that uses the same formula as the BaseShape
 
     [ ] We made 'ShapeTests' differently than we did 'SquareTest', 'RectangleTest' and 'EquilateralTriangleTest'
         A unit test is testing a single unit and generally that means by classes in java.
         'SquareTest', 'RectangleTest' and 'EquilateralTriangleTest' are all unit tests.
         'ShapeTests' was testing with each shape as a generic 'BaseShape' instead of the previous shape classes.
         Is 'ShapeTests' a unit test of 'ShapeFactory.java'?
-        ANSWER HERE:
+        ANSWER HERE: Yes, because it validates that the code from shapeFactory is working

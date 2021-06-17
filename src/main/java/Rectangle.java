@@ -22,12 +22,7 @@ public class Rectangle extends BaseShape{
     // TODO FOR HOMEWORK: Add a static main method for any debugging purposes
     public static void main(String[] args) {
         Rectangle rectangle = new Rectangle(5,7);
-        double area = rectangle.area();
-        double perimeter = rectangle.perimeter();
-
-        System.out.println("A rectangle with height of " + rectangle.getHeight() + " has an area of: " + area);
-        System.out.println("A rectangle with length of " + rectangle.getLength() + " has a perimeter of: " + perimeter);
-
+        rectangle.DEBUG_PrintOutAreaAndPerimeter();
     }
 
 

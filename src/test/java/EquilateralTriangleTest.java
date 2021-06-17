@@ -6,7 +6,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class EquilateralTriangleTest {
-//    private double height;
 
     /**
      * This test is for the 'Getters'
@@ -16,8 +15,7 @@ public class EquilateralTriangleTest {
         double length = 7;
 
         // TODO FOR HOMEWORK: Uncomment the lines below when EquilateralTriangle.java is complete
-        double height = 0;
-        EquilateralTriangle triangle = new EquilateralTriangle(length, height);
+        EquilateralTriangle triangle = new EquilateralTriangle(length);
         Assert.assertEquals(triangle.getLength(), length);
         Assert.assertEquals(triangle.getHeight(), Math.sqrt(3) * length / 2);
     }
